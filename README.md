@@ -1,30 +1,71 @@
 # Bernardo Carvalho — Portfólio
 
-Portfólio pessoal estático para apresentação profissional a recrutadores.
+> Portfólio profissional desenvolvido para apresentar minha experiência, projetos e evolução como desenvolvedor **Full Stack com foco em Backend**.
 
-## MVP
+🌐 **Site:** https://bernardonal.github.io  
+💻 **GitHub:** https://github.com/BernardoNal
 
-- Landing page responsiva
-- Seções de apresentação, projetos, experiência, tecnologias e contato
-- Estrutura preparada para GitHub Pages
-- Sem backend ou banco de dados
+---
 
-## Projetos prioritários
+## Sobre o projeto
 
-1. MyChemicals
-2. Money Control
-3. TCC
+Este repositório contém o código do meu portfólio pessoal.
 
-## Experiência prioritária
+A proposta é transformar minha experiência profissional e meus projetos em uma apresentação objetiva e visual, permitindo que recrutadores conheçam meu trabalho além do currículo tradicional.
 
-1. KodeBrew
-2. Aipim Tech
+O projeto é desenvolvido como uma aplicação web estática e publicado utilizando **GitHub Pages**.
 
-## Próximas etapas
+---
 
-- Levantar detalhes técnicos e screenshots de cada projeto
-- Substituir placeholders por conteúdo definitivo
-- Adicionar links reais de GitHub/LinkedIn
-- Criar cases individuais dos projetos
-- Publicar no GitHub Pages
-- Avaliar domínio próprio posteriormente
+## Projetos em destaque
+
+| Projeto | Descrição |
+| --- | --- |
+| **MyChemicals** | Sistema de gestão de produtos químicos desenvolvido para uma fazenda. |
+| **Money Control** | Aplicação voltada para organização e acompanhamento financeiro pessoal. |
+| **TCC** | Projeto de conclusão de curso desenvolvido durante minha formação acadêmica. |
+
+Os projetos serão apresentados progressivamente com screenshots, contexto, decisões técnicas, tecnologias utilizadas e detalhes de implementação.
+
+---
+
+## Experiência
+
+### KodeBrew
+
+Experiência com desenvolvimento de aplicações web e projetos para diferentes segmentos, incluindo desenvolvimento de MVPs.
+
+### Aipim Tech
+
+Experiência com desenvolvimento e manutenção de APIs, integrações, automações e soluções envolvendo WhatsApp e OpenAI, além de investigação de problemas em produção.
+
+---
+
+## Tecnologias
+
+### Backend
+
+`Ruby` · `Ruby on Rails` · `PHP` · `Laravel`
+
+### Frontend
+
+`JavaScript` · `HTML` · `CSS` · `Tailwind CSS`
+
+### Banco de dados
+
+`PostgreSQL` · `MySQL` · `SQL Server`
+
+### Integrações e ferramentas
+
+`APIs REST` · `Webhooks` · `OpenAI` · `Make` · `Git` · `GitHub` · `Docker`
+
+---
+
+## Estrutura
+
+```text
+BernardoNal.github.io/
+├── index.html
+├── styles.css
+├── script.js
+└── README.md
