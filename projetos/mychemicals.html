@@ -1,0 +1,351 @@
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Estudo de caso do MyChemicals, sistema de gestão de produtos químicos agrícolas." />
+  <title>MyChemicals — Bernardo Carvalho</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html#top" aria-label="Início">BC</a>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#contribuicoes">Contribuições</a>
+      <a href="#qualidade">Qualidade</a>
+      <a href="#tecnologias">Tecnologias</a>
+    </nav>
+    <a class="button button-small" href="../index.html#projetos">
+      Portfólio <span>↗</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">ESTUDO DE CASO · PROJETO PRINCIPAL</p>
+        <h1>MyChemicals</h1>
+        <h2>Sistema de gestão de produtos químicos agrícolas</h2>
+        <p class="lead">
+          Aplicação web para gestão de produtos químicos e atividades
+          agrícolas, com foco em regras de negócio, organização de
+          informações e evolução contínua do sistema.
+        </p>
+
+        <div class="tags">
+          <span>Ruby on Rails</span>
+          <span>PostgreSQL</span>
+          <span>Bootstrap</span>
+          <span>RSpec</span>
+          <span>CI/CD</span>
+        </div>
+
+        <div class="hero-actions">
+          <a class="button"
+             href="https://github.com/BernardoNal/my-chemicals"
+             target="_blank"
+             rel="noopener noreferrer">
+            Ver repositório <span>↗</span>
+          </a>
+          <a class="button button-ghost" href="../index.html#projetos">
+            Voltar aos projetos
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <a
+          class="project-preview"
+          href="https://my-chemicals-d734b9db170a.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Abrir MyChemicals em produção"
+        >
+          <img
+            src="../images/mychemical-login.png"
+            alt="Tela de login do MyChemicals"
+          />
+          <span class="preview-overlay">
+            Acessar aplicação <span aria-hidden="true">↗</span>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <section id="sobre" class="section section-light">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">01 · CONTEXTO</p>
+          <h2>Sobre o projeto</h2>
+        </div>
+      </div>
+
+      <p>
+        O MyChemicals é um sistema de gestão de produtos químicos
+        agrícolas. O projeto começou em equipe durante o Le Wagon
+        e, posteriormente, passei a trabalhar individualmente em sua
+        manutenção e evolução.
+      </p>
+
+      <p>
+        Nessa etapa, trabalhei na compreensão de uma aplicação existente,
+        investigação de problemas, implementação de funcionalidades e
+        aprimoramento dos testes e das verificações de qualidade.
+      </p>
+    </section>
+
+    <section id="funcionalidades" class="section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">02 · FUNCIONALIDADES</p>
+          <h2>O sistema em funcionamento</h2>
+        </div>
+      </div>
+      <p>
+        As telas abaixo apresentam algumas das áreas centrais do sistema:
+        acompanhamento de estoque, consulta de registros, gerenciamento de
+        atividades e geração de relatórios.
+      </p>
+
+      <div class="project-grid case-feature-grid">
+        <article class="project-card case-feature-card">
+          <a class="case-screenshot-link" href="../images/mychemicals-estoque.png" target="_blank" rel="noopener noreferrer" aria-label="Ampliar captura da tela de estoque">
+            <img class="case-screenshot" src="../images/mychemicals-estoque.png" alt="Painel de controle com seleção de fazenda e estoque e tabela de produtos químicos" loading="lazy" />
+          </a>
+          <div class="project-body">
+            <p class="project-kicker">ESTOQUE</p>
+            <h3>Dashboard e produtos</h3>
+            <p>
+              Visão dos produtos cadastrados e das quantidades disponíveis,
+              com seleção de fazenda e local de armazenamento, pesquisa e
+              acesso às operações de entrada e saída.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card case-feature-card">
+          <a class="case-screenshot-link" href="../images/mychemicals-registros.png" target="_blank" rel="noopener noreferrer" aria-label="Ampliar captura dos registros">
+            <img class="case-screenshot" src="../images/mychemicals-registros.png" alt="Tela de registros com filtros por data e produto químico e opção de gerar PDF" loading="lazy" />
+          </a>
+          <div class="project-body">
+            <p class="project-kicker">MOVIMENTAÇÕES</p>
+            <h3>Registros e histórico</h3>
+            <p>
+              Consulta dos registros com filtros por período e produto químico,
+              incluindo informações da movimentação e opção de exportação.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card case-feature-card">
+          <a class="case-screenshot-link" href="../images/mychemicals-atividades.png" target="_blank" rel="noopener noreferrer" aria-label="Ampliar captura da tela de atividades">
+            <img class="case-screenshot" src="../images/mychemicals-atividades.png" alt="Listagem de atividades agrícolas com filtros e informações de data, descrição, tipo e fazenda" loading="lazy" />
+          </a>
+          <div class="project-body">
+            <p class="project-kicker">OPERAÇÃO AGRÍCOLA</p>
+            <h3>Atividades</h3>
+            <p>
+              Listagem e consulta de atividades agrícolas, com filtros por
+              texto, datas, tipo e fazenda, além de acesso à edição e aos detalhes.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card case-feature-card">
+          <a class="case-screenshot-link" href="../images/mychemicals-relatorio-pdf.png" target="_blank" rel="noopener noreferrer" aria-label="Ampliar captura do relatório PDF">
+            <img class="case-screenshot case-pdf-preview" src="../images/mychemicals-relatorio-pdf.png" alt="Relatório PDF de estoque de produtos químicos por fazenda e local de armazenamento" loading="lazy" />
+          </a>
+          <div class="project-body">
+            <p class="project-kicker">EXPORTAÇÃO</p>
+            <h3>Relatório de estoque em PDF</h3>
+            <p>
+              Geração de um documento com identificação da fazenda, local de
+              armazenamento, data e relação dos produtos e respectivas quantidades.
+            </p>
+          </div>
+        </article>
+      </div>
+      <p class="case-caption">
+        As capturas são demonstrações da interface. Dados pessoais ou operacionais
+        devem ser ocultados antes da publicação pública.
+      </p>
+    </section>
+
+    <section id="contribuicoes" class="section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">03 · CONTRIBUIÇÕES</p>
+          <h2>Principais contribuições</h2>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-body">
+            <p class="project-kicker">FUNCIONALIDADES</p>
+            <h3>Módulo de atividades</h3>
+            <p>
+              Desenvolvimento e evolução de operações de consulta,
+              criação e edição de atividades, incluindo validações
+              e ajustes nas regras de negócio.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-body">
+            <p class="project-kicker">CONSULTAS E RELATÓRIOS</p>
+            <h3>Filtros e PDFs</h3>
+            <p>
+              Implementação e aprimoramento de filtros, buscas e
+              geração de relatórios em PDF para facilitar a consulta
+              e a organização das informações.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-body">
+            <p class="project-kicker">REGRAS DE ACESSO</p>
+            <h3>Autorização</h3>
+            <p>
+              Ampliação dos testes relacionados às permissões e ao
+              acesso a diferentes recursos da aplicação.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-body">
+            <p class="project-kicker">MANUTENÇÃO</p>
+            <h3>Correções e interface</h3>
+            <p>
+              Ajustes de responsividade, formulários e tabelas,
+              além de correções e melhorias incrementais nas
+              funcionalidades existentes.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="qualidade" class="section section-light">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">03 · QUALIDADE DE SOFTWARE</p>
+          <h2>Testes e automação</h2>
+        </div>
+      </div>
+
+      <p>
+        Uma parte importante da evolução recente foi fortalecer a
+        confiabilidade da aplicação com testes automatizados e
+        verificações de qualidade.
+      </p>
+
+      <ul>
+        <li>Ampliação dos testes de modelos e regras de domínio com RSpec.</li>
+        <li>Testes de autorização e acesso aos recursos da aplicação.</li>
+        <li>Testes de integração para fluxos importantes, incluindo autenticação e operações do sistema.</li>
+        <li>Configuração de integração contínua com verificações de testes, estilo e segurança.</li>
+        <li>Correções e ajustes na suíte de testes e nas ferramentas de qualidade.</li>
+      </ul>
+
+      <p>
+        O objetivo foi tornar as alterações mais seguras, facilitar
+        a identificação de regressões e automatizar verificações
+        durante o desenvolvimento.
+      </p>
+    </section>
+
+    <section id="tecnologias" class="section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">04 · STACK TÉCNICA</p>
+          <h2>Tecnologias e práticas</h2>
+        </div>
+      </div>
+
+      <div class="tags">
+        <span>Ruby on Rails</span>
+        <span>PostgreSQL</span>
+        <span>Bootstrap</span>
+        <span>RSpec</span>
+        <span>RuboCop</span>
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>Integração contínua</span>
+      </div>
+
+      <p>
+        Além do desenvolvimento de funcionalidades, o trabalho envolveu
+        manutenção de código existente, depuração, validações, testes
+        automatizados e configuração de verificações de qualidade.
+      </p>
+    </section>
+
+    <section class="section section-light">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">05 · APRENDIZADOS</p>
+          <h2>Evoluir software existente</h2>
+        </div>
+      </div>
+
+      <p>
+        O projeto aprofundou minha experiência com manutenção e evolução
+        de aplicações Rails. Trabalhar em uma base de código existente
+        exigiu compreender comportamentos implementados, avaliar os
+        impactos das mudanças e ampliar os testes para reduzir riscos.
+      </p>
+
+      <p>
+        Essa experiência reforçou a importância de combinar a entrega
+        de funcionalidades com testes, controle de acesso e automação
+        de verificações de qualidade.
+      </p>
+
+      <div class="hero-actions">
+        <a class="button"
+           href="https://github.com/BernardoNal/my-chemicals"
+           target="_blank"
+           rel="noopener noreferrer">
+          Explorar código no GitHub <span>↗</span>
+        </a>
+        <a class="button " href="../index.html#projetos">
+          Voltar ao portfólio
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato" class="footer">
+    <div>
+      <p class="eyebrow">CONTATO</p>
+      <h2>Vamos conversar?</h2>
+      <p>Aberto a novas oportunidades e projetos interessantes.</p>
+    </div>
+
+    <div class="contact-links">
+      <a href="mailto:bernardo.carvalho.bac@gmail.com">
+        <span>E-mail</span>
+        <b>bernardo.carvalho.bac@gmail.com</b>
+      </a>
+      <a href="https://www.linkedin.com/in/bernardo-carvalho-bac/"
+         target="_blank"
+         rel="noopener noreferrer">
+        <span>LinkedIn</span>
+        <b>Bernardo Carvalho</b>
+      </a>
+      <a href="https://github.com/BernardoNal"
+         target="_blank"
+         rel="noopener noreferrer">
+        <span>GitHub</span>
+        <b>BernardoNal</b>
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
