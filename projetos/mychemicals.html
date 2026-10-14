@@ -8,6 +8,26 @@
   <title>MyChemicals — Bernardo Carvalho</title>
   <link rel="stylesheet" href="../styles.css" />
 </head>
+<div
+  class="lightbox"
+  id="image-lightbox"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Visualização ampliada da imagem"
+  hidden
+>
+  <button
+    class="lightbox-close"
+    type="button"
+    aria-label="Fechar imagem"
+  >
+    &times;
+  </button>
+
+  <img class="lightbox-image" src="" alt="" />
+</div>
+
+<script src="../script.js"></script>
 <body>
   <header class="site-header">
     <a class="brand" href="../index.html#top" aria-label="Início">BC</a>
@@ -111,8 +131,9 @@
 
       <div class="project-grid case-feature-grid">
         <article class="project-card case-feature-card">
-          <a class="case-screenshot-link" href="../images/mychemicals-estoque.png" target="_blank" rel="noopener noreferrer" aria-label="Ampliar captura da tela de estoque">
-            <img class="case-screenshot" src="../images/mychemicals-estoque.png" alt="Painel de controle com seleção de fazenda e estoque e tabela de produtos químicos" loading="lazy" />
+          <a class="case-screenshot-link" href="../images/mychemical - home.png" data-lightbox
+  aria-label="Ampliar captura da tela de estoque">
+            <img class="case-screenshot" src="../images/mychemical - home.png" alt="Painel de controle com seleção de fazenda e estoque e tabela de produtos químicos" loading="lazy" />
           </a>
           <div class="project-body">
             <p class="project-kicker">ESTOQUE</p>
@@ -126,8 +147,9 @@
         </article>
 
         <article class="project-card case-feature-card">
-          <a class="case-screenshot-link" href="../images/mychemicals-registros.png" target="_blank" rel="noopener noreferrer" aria-label="Ampliar captura dos registros">
-            <img class="case-screenshot" src="../images/mychemicals-registros.png" alt="Tela de registros com filtros por data e produto químico e opção de gerar PDF" loading="lazy" />
+          <a class="case-screenshot-link" href="../images/mychemical - registros.png" data-lightbox
+  aria-label="Ampliar captura dos registros">
+            <img class="case-screenshot" src="../images/mychemical - registros.png" alt="Tela de registros com filtros por data e produto químico e opção de gerar PDF" loading="lazy" />
           </a>
           <div class="project-body">
             <p class="project-kicker">MOVIMENTAÇÕES</p>
@@ -140,8 +162,9 @@
         </article>
 
         <article class="project-card case-feature-card">
-          <a class="case-screenshot-link" href="../images/mychemicals-atividades.png" target="_blank" rel="noopener noreferrer" aria-label="Ampliar captura da tela de atividades">
-            <img class="case-screenshot" src="../images/mychemicals-atividades.png" alt="Listagem de atividades agrícolas com filtros e informações de data, descrição, tipo e fazenda" loading="lazy" />
+          <a class="case-screenshot-link" href="../images/mychemical - atividades.png" data-lightbox
+  aria-label="Ampliar captura da tela de atividades">
+            <img class="case-screenshot" src="../images/mychemical - atividades.png" alt="Listagem de atividades agrícolas com filtros e informações de data, descrição, tipo e fazenda" loading="lazy" />
           </a>
           <div class="project-body">
             <p class="project-kicker">OPERAÇÃO AGRÍCOLA</p>
@@ -154,8 +177,9 @@
         </article>
 
         <article class="project-card case-feature-card">
-          <a class="case-screenshot-link" href="../images/mychemicals-relatorio-pdf.png" target="_blank" rel="noopener noreferrer" aria-label="Ampliar captura do relatório PDF">
-            <img class="case-screenshot case-pdf-preview" src="../images/mychemicals-relatorio-pdf.png" alt="Relatório PDF de estoque de produtos químicos por fazenda e local de armazenamento" loading="lazy" />
+          <a class="case-screenshot-link" href="../images/mychemical - pdf.png" data-lightbox
+  aria-label="Ampliar captura do relatório PDF">
+            <img class="case-screenshot case-pdf-preview" src="../images/mychemical - pdf.png" alt="Relatório PDF de estoque de produtos químicos por fazenda e local de armazenamento" loading="lazy" />
           </a>
           <div class="project-body">
             <p class="project-kicker">EXPORTAÇÃO</p>
