@@ -214,17 +214,18 @@ a {
 }
 
 .profile-placeholder {
+  position: relative;
   display: grid;
   width: 330px;
   height: 430px;
   place-items: center;
-  border: 1px solid #27415e;
-  border-radius: 170px 170px 30px 30px;
-  background: linear-gradient(145deg, #182c41, #07101a);
-  box-shadow: 0 30px 80px rgba(0, 0, 0, .35);
-  color: #75a8ed;
-  font-size: 76px;
-  font-weight: 900;
+}
+
+.profile-image {
+  display: block;
+  width: 400px;
+  max-width: 105%;
+  height: auto;
 }
 
 .tech-card {
@@ -393,12 +394,12 @@ a {
 }
 
 .image-mychemicals {
-  background-image: url("images/mychemical-login.png");
+  background-image: url("images/mychemical/mychemical-login.png");
   background-position: center 35%;
 }
 
 .image-money {
-  background-image: url("images/login- MC.png");
+  background-image: url("images/money%20control/login-%20MC.png");
 }
 
 .image-tcc {

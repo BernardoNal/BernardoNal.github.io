@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Estudo de caso do Money Control, plataforma pessoal de organização financeira e acompanhamento de investimentos." />
+  <title>Money Control — Bernardo Carvalho</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <div
+    class="lightbox"
+    id="image-lightbox"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Visualização ampliada da imagem"
+    hidden
+  >
+    <button class="lightbox-close" type="button" aria-label="Fechar imagem">&times;</button>
+    <img class="lightbox-image" src="" alt="" />
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="../index.html#top" aria-label="Início">BC</a>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="../index.html#top">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#funcionalidades">Funcionalidades</a>
+      <a href="#contribuicoes">Contribuições</a>
+      <a href="#qualidade">Qualidade</a>
+      <a href="#tecnologias">Tecnologias</a>
+    </nav>
+    <a class="button button-small" href="../index.html#projetos">Portfólio <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">ESTUDO DE CASO · PROJETO PESSOAL</p>
+        <h1>Money Control</h1>
+        <h2>Plataforma pessoal de organização financeira e acompanhamento de investimentos</h2>
+        <p class="lead">
+          Aplicação Ruby on Rails para centralizar contas, transações,
+          investimentos e recebíveis, combinando acompanhamento financeiro,
+          dados de mercado, análises e automações.
+        </p>
+
+        <div class="tags">
+          <span>Ruby on Rails</span>
+          <span>PostgreSQL</span>
+          <span>Tailwind CSS</span>
+          <span>RSpec</span>
+          <span>Pundit</span>
+          <span>GitHub Actions</span>
+        </div>
+
+        <div class="hero-actions">
+          <a class="button" href="https://github.com/BernardoNal/money-control" target="_blank" rel="noopener noreferrer">
+            Ver código no GitHub <span>↗</span>
+          </a>
+          <a class="button button-ghost" href="../index.html#projetos">Voltar aos projetos</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <a
+          class="project-preview"
+          href="../images/money%20control/login-%20MC.png"
+          data-lightbox
+          aria-label="Ampliar captura do Money Control"
+        >
+          <img src="../images/money%20control/login-%20MC.png" alt="Tela de acesso da plataforma Money Control" />
+          <span class="preview-overlay">Ampliar captura <span aria-hidden="true">↗</span></span>
+        </a>
+      </div>
+    </section>
+
+    <section id="sobre" class="section section-light">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">01 · CONTEXTO</p>
+          <h2>Sobre o projeto</h2>
+        </div>
+      </div>
+
+      <p>
+        O Money Control é uma aplicação pessoal desenvolvida em Ruby on Rails
+        para organizar informações financeiras em um único ambiente. O projeto
+        evoluiu de um controle de finanças para uma aplicação mais completa,
+        incorporando contas, transações, carteiras de investimentos, ativos de
+        mercado, movimentações, recebíveis e análises.
+      </p>
+      <p>
+        A evolução recente também concentrou esforços em arquitetura, segurança,
+        testes automatizados, organização do JavaScript, integrações externas e
+        automação do processo de desenvolvimento.
+      </p>
+    </section>
+
+    <section id="funcionalidades" class="section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">02 · FUNCIONALIDADES</p>
+          <h2>O sistema em funcionamento</h2>
+        </div>
+      </div>
+      <p>
+        As áreas abaixo mostram como o projeto foi além de um CRUD financeiro,
+        reunindo acompanhamento, importação, integração e análise de dados.
+      </p>
+
+      <div class="project-grid case-feature-grid">
+        <article class="project-card">
+          <a class="case-screenshot-link" href="../images/money%20control/dash%201%20MC.png" data-lightbox aria-label="Ampliar captura do dashboard financeiro">
+            <img class="case-screenshot" src="../images/money%20control/dash%201%20MC.png" alt="Dashboard financeiro do Money Control" loading="lazy" />
+          </a>
+          <div class="project-body">
+            <p class="project-kicker">VISÃO GERAL</p>
+            <h3>Dashboard financeiro</h3>
+            <p>Visão consolidada das informações financeiras, com saldos, posições de investimento, valores de mercado e indicadores relevantes.</p>
+          </div>
+        </article>
+        <article class="project-card">
+          <a class="case-screenshot-link" href="../images/money%20control/Conta%20MC.png" data-lightbox aria-label="Ampliar captura de contas financeiras">
+            <img class="case-screenshot" src="../images/money%20control/Conta%20MC.png" alt="Tela de contas financeiras do Money Control" loading="lazy" />
+          </a>
+          <div class="project-body">
+            <p class="project-kicker">MOVIMENTAÇÕES</p>
+            <h3>Contas e transações</h3>
+            <p>Gerenciamento de contas financeiras e movimentações, com criação, edição, filtros e importação de transações por arquivos CSV.</p>
+          </div>
+        </article>
+        <article class="project-card">
+          <a class="case-screenshot-link" href="../images/money%20control/ativos%20MC.png" data-lightbox aria-label="Ampliar captura da carteira de investimentos">
+            <img class="case-screenshot" src="../images/money%20control/ativos%20MC.png" alt="Tela de ativos e investimentos do Money Control" loading="lazy" />
+          </a>
+          <div class="project-body">
+            <p class="project-kicker">INVESTIMENTOS</p>
+            <h3>Carteira de investimentos</h3>
+            <p>Acompanhamento de carteiras, posições, movimentações e valores de mercado, com consulta de ativos e preços externos.</p>
+          </div>
+        </article>
+        <article class="project-card">
+          <a class="case-screenshot-link" href="../images/money%20control/Proventos.png" data-lightbox aria-label="Ampliar captura de recebíveis e proventos">
+            <img class="case-screenshot" src="../images/money%20control/Proventos.png" alt="Tela de proventos e recebíveis do Money Control" loading="lazy" />
+          </a>
+          <div class="project-body">
+            <p class="project-kicker">ANÁLISES</p>
+            <h3>Recebíveis e relatórios</h3>
+            <p>Registro e análise de recebíveis, importação de XLSX com revisão manual e verificação de duplicidades, além de relatórios.</p>
+          </div>
+        </article>
+      </div>
+      <p class="case-caption">As capturas apresentam telas reais da aplicação e podem ser ampliadas ao clicar em cada imagem.</p>
+    </section>
+
+    <section id="contribuicoes" class="section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">03 · CONTRIBUIÇÕES</p>
+          <h2>Evolução e contribuições técnicas</h2>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card"><div class="project-body">
+          <p class="project-kicker">ARQUITETURA E DOMÍNIO</p>
+          <h3>Responsabilidades bem separadas</h3>
+          <p>Evolução da estrutura de domínio para separar responsabilidades entre modelos, serviços, políticas, componentes de interface e integrações externas.</p>
+          <p class="case-caption"><code>app/services</code> · <code>app/policies</code> · <code>app/components</code> · <code>lib/market_data</code></p>
+        </div></article>
+        <article class="project-card"><div class="project-body">
+          <p class="project-kicker">DADOS DE MERCADO</p>
+          <h3>Integração isolada por serviços</h3>
+          <p>Camada de integração que isola o provedor externo da aplicação por meio de contratos e serviços próprios.</p>
+          <p class="case-caption"><code>BrapiProvider</code> · <code>AssetLookupService</code> · <code>PriceLookupService</code></p>
+        </div></article>
+        <article class="project-card"><div class="project-body">
+          <p class="project-kicker">SEGURANÇA</p>
+          <h3>Privacidade e isolamento</h3>
+          <p>Uso de Devise, Pundit e políticas de autorização para manter recursos financeiros dentro do escopo do usuário autenticado.</p>
+        </div></article>
+        <article class="project-card"><div class="project-body">
+          <p class="project-kicker">REFATORAÇÃO</p>
+          <h3>Interface mais reutilizável</h3>
+          <p>Organização do JavaScript em módulos focados, criação de componentes reutilizáveis e melhorias de UX nos formulários.</p>
+        </div></article>
+      </div>
+    </section>
+
+    <section id="tecnologias" class="section section-light">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">04 · RECURSOS</p>
+          <h2>Integrações e funcionalidades técnicas</h2>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card"><div class="project-body"><p class="project-kicker">IMPORTAÇÃO DE DADOS</p><h3>CSV e XLSX</h3><p>Importação de transações e recebíveis com revisão manual e prevenção de duplicidades.</p></div></article>
+        <article class="project-card"><div class="project-body"><p class="project-kicker">DADOS DE MERCADO</p><h3>BRAPI e fallback</h3><p>Consulta de ativos e preços de mercado, com tratamento de limites de requisição e fallback quando necessário.</p></div></article>
+        <article class="project-card"><div class="project-body"><p class="project-kicker">RELATÓRIOS</p><h3>Análises financeiras</h3><p>Análise de desempenho de carteiras, valores de mercado, recebíveis e relatórios fiscais.</p></div></article>
+        <article class="project-card"><div class="project-body"><p class="project-kicker">OPERAÇÕES</p><h3>Privacidade e backups</h3><p>Controle global para ocultar valores sensíveis, além de geração e restauração documentada de backups PostgreSQL.</p></div></article>
+      </div>
+    </section>
+
+    <section id="qualidade" class="section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">05 · QUALIDADE</p>
+          <h2>Qualidade e confiabilidade</h2>
+        </div>
+      </div>
+
+      <p>O projeto utiliza testes automatizados e validações contínuas para reduzir regressões e proteger fluxos financeiros sensíveis.</p>
+      <div class="project-grid">
+        <article class="project-card"><div class="project-body"><p class="project-kicker">TESTES AUTOMATIZADOS</p><h3>RSpec</h3><p>Model, request, policy, service e component specs, além da validação de fluxos de autenticação e isolamento entre usuários.</p></div></article>
+        <article class="project-card"><div class="project-body"><p class="project-kicker">INTEGRAÇÃO CONTÍNUA</p><h3>GitHub Actions</h3><p>O workflow <code>.github/workflows/ci.yml</code> mantém verificações automatizadas para apoiar a evolução contínua do projeto.</p></div></article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato" class="footer">
+    <div>
+      <p class="eyebrow">CONTATO</p>
+      <h2>Vamos conversar?</h2>
+      <p>Aberto a novas oportunidades e projetos interessantes.</p>
+    </div>
+    <div class="contact-links">
+      <a href="mailto:bernardo.carvalho.bac@gmail.com"><span>E-mail</span><b>bernardo.carvalho.bac@gmail.com</b></a>
+      <a href="https://www.linkedin.com/in/bernardo-carvalho-bac/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><b>Bernardo Carvalho</b></a>
+      <a href="https://github.com/BernardoNal" target="_blank" rel="noopener noreferrer"><span>GitHub</span><b>BernardoNal</b></a>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
